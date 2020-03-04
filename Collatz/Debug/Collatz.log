@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\dell\desktop\aisd\collatz\collatz\main.cpp(170): warning C4101: 'k': unreferenced local variable
+c:\users\dell\desktop\aisd\collatz\collatz\main.cpp(170): warning C4101: 'lkomend': unreferenced local variable
+c:\users\dell\desktop\aisd\collatz\collatz\main.cpp(171): warning C4101: 'c': unreferenced local variable
+  Collatz.vcxproj -> C:\Users\Dell\Desktop\AiSD\Collatz\Debug\Collatz.exe

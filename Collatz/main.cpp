@@ -1,5 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<cstdlib>
+//#include<cstdio>
 #include<stdio.h>
 #include<iostream>
 #include<conio.h>
@@ -167,8 +168,7 @@ void collatzMax(tab *tabmax, tab *tabmin) {
 }
 
 int main() {
-	int dlugosc, lkomend, k, calkDl;
-	char c;
+	int dlugosc, calkDl;
 	scanf("%d", &dlugosc);
 	tab *tabMin = (tab*)malloc(dlugosc * sizeof(tab));
 	for (int i = 0; i < dlugosc; i++) {
@@ -224,21 +224,5 @@ int main() {
 		cout << tabMax[i].indeksMin << " ";
 	}
 
-	_getch();
-	
-	/*scanf("%d", &lkomend);
-	for (int i = 0; i < lkomend; i++) {
-		scanf("%d %c", &k, &c);
-		if (c == 's') {
-			for (int j = 0; j < k; j++) {
-
-			}
-		}
-		else if (c == 'l') {
-			for (int j = 0; j < k; j++) {
-
-			}
-		}
-	}*/
 	return 0;
 }

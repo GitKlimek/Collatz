@@ -266,6 +266,7 @@ int main() {
 		wynik[tabMin[i].indeks] = tabMin[i].key;
 	}
 
+	//wyswietlanie wyniku
 	for (int i = 0; i < calkDl; i++) {
 		if (wynik[i] == NULL) {
 			printf("m ");

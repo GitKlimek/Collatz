@@ -1,5 +1,2 @@
 ﻿  main.cpp
-d:\studia\collatz\collatz\main.cpp(171): warning C4101: 'k': unreferenced local variable
-d:\studia\collatz\collatz\main.cpp(171): warning C4101: 'lkomend': unreferenced local variable
-d:\studia\collatz\collatz\main.cpp(172): warning C4101: 'c': unreferenced local variable
   Collatz.vcxproj -> D:\Studia\Collatz\Debug\Collatz.exe
